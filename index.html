@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #t1{
+            background-image: linear-gradient(to right,rgba(0, 123, 166, 0.9), rgba(25, 188, 158, 0.9));
+            width: 600px;
+            height: 60px;
+            border-radius: 35px;
+            line-height: 60px;
+            padding-left: 20px;
+            color: white;
+            position: absolute;
+            box-shadow: 5px 5px 5px #888888;
+        }
+        #t2{
+            background-image:linear-gradient(to right,rgba(255, 178, 0, 0.9), rgba(255, 154, 0, 0.9)); 
+            width: 600px;
+            height: 60px;
+            border-radius: 35px;
+            line-height: 60px;
+            padding-left: 20px;
+            color: white;
+            position: absolute;
+            left: 550px;
+            top: 0px;
+            box-shadow: 5px 5px 5px #888888;
+        }
+        #banner{
+           position: absolute;
+           left: 500px;
+        }
+        li{
+            list-style: none;
+            font-size: 18px;
+            
+            line-height: 30px;
+        }
+        ul{
+            padding-top: 40px;
+            line-height: 10px;
+            
+        }
+        #view{
+            position: absolute;
+            left: 510px;
+            top: -40px;
+        }
+        #q1{
+            position: absolute;
+            top:150px;
+            width: 550px;
+            font-weight: bold;
+            height: 450px;
+            box-shadow: 2px 2px 5px 5px #dfdfdf;
+            border-radius: 25px;
+
+        }
+        #q2{
+            position: absolute;
+            top:150px;
+            width: 550px;
+            height: 450px;
+            left: 600px;
+            box-shadow: 2px 2px 5px 5px #dfdfdf;
+            border-radius: 25px;
+
+        }
+        textarea{
+            width: 450px;
+            height: 50px;
+            resize: none;
+        }
+        button{
+            width: 455px;
+            background-image:linear-gradient(to right,rgba(255, 178, 0, 0.9), rgba(255, 154, 0, 0.9));
+            border-style: none;
+        }
+        form{
+            margin-top: 100px;
+            line-height: 10px;
+        }
+        #l1,#l2{
+            background-color: lightyellow;
+            width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <div id="t1">意见征集</div>
+        <div id="t2">咨询建议</div>
+    </div>
+    <div id="view">
+        <div id="q1">
+            <ul>
+                <li>Q:2018年“中国航天日”宣传海报发布></li><br>
+                <li>Q:2018年“中国航天日”海报征集活动正式启动></li><br>
+                <li>Q:关于延长2018年“中国航天日”海报征集活动时间的通知></li><br>
+                <li>Q:关于延长2017年“中国航天日”海报征集活动时间的通知></li><br>
+                <li>Q:Q:2017年“中国航天日”海报征集活动正式启动></li><br>
+                <li>Q:有奖征集中国航天50年历程主题书名></li>
+            </ul>
+        </div>
+        <div id="q2">
+            <ul>
+                <li id="l1">逐梦航天，合作共赢</li>
+                <li>拥抱星辰大海，弘扬航天精神</li>
+                <li id="l2">同抒航展情，助力中国梦</li>
+                <form>
+                    <textarea name="s" id="s"placeholder="你要说的话" style="border: #888888 1px solid;"></textarea><br>
+                    <button>提交</button>
+                </form>
+                
+            </ul>   
+        </div>
+     </div>
+</body>
+</html>
